@@ -1,0 +1,177 @@
+body {
+  margin: 0 0;
+  background-color: #f5f5fe;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: lighter;
+  font-family: sans-serif;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #0b2f41;
+  height: 3.2rem;
+  padding: 0 0;
+  margin: 0 0;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  display: block;
+  color: rgba(255, 255, 255, 0.685);
+  /* text-align: center; */
+  padding-right: 8px;
+  padding-left: 16px;
+  padding-bottom: 0;
+  padding-top: 10px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: rgb(255, 255, 255);
+}
+
+/* Style the "active" element to highlight the current page */
+.topnav a.active {
+  background-color: #0b2f41;
+  color: white;
+}
+
+/* Style the search box inside the navigation bar */
+.topnav input[type="text"] {
+  /* padding: 6px; */
+  border: none;
+  height: 2rem;
+  font-size: 17px;
+  width: 16rem;
+  background-color: #e6e6ff;
+}
+
+/* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+@media screen and (max-width: 600px) {
+  .topnav a,
+  .topnav input[type="text"] {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    /* margin: 0; */
+    /* padding: 14px; */
+  }
+  .topnav input[type="text"] {
+    border: 1px solid #ccc;
+  }
+}
+
+.content {
+  padding-right: 400px;
+}
+
+.logo {
+  margin-top: 8px;
+  margin-left: 200px;
+  /* display: block; */
+}
+.logo .fa-linkedin {
+  vertical-align: middle;
+}
+.fab {
+  color: #0e76a8;
+}
+.col {
+  float: left;
+  width: 36%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.first {
+  margin-left: 200px;
+  margin-top: 10px;
+  /* border:1px solid grey; */
+
+  width: 13rem;
+  /* background-color: white; */
+}
+
+.intro {
+  height: 22rem;
+  /* padding-bottom: 1px; */
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.recent {
+  margin-top: 5px;
+  height: 30rem;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+}
+.center {
+  margin-left: 1.5rem;
+  margin-top: 10px;
+  background-color: white;
+  width: 34rem;
+}
+.post {
+  height: 7rem;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.firstpost {
+  height: 20rem;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+}
+.end {
+  /* margin-right: 150px; */
+  margin-left: 25px;
+  margin-top: 10px;
+  width: 20rem;
+  background-color: white;
+}
+
+.news {
+  height: 20rem;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  /* width: 16rem; */
+}
+
+.icon.fas {
+  display: block;
+}
+
+.edit {
+  margin-left: 2rem;
+  margin-top: 0.5rem;
+}
+
+.line {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  height: 0.001px;
+}
+.posticon {
+  margin-left: 3rem;
+}
+
+.blueback {
+  height: 3.5rem;
+  background-color: #0084bf;
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
