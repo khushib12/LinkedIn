@@ -76,6 +76,7 @@ body {
 }
 .logo .fa-linkedin {
   vertical-align: middle;
+  margin-right: 0.5rem;
 }
 .fab {
   color: #0e76a8;
@@ -134,13 +135,13 @@ body {
   margin-left: 25px;
   margin-top: 10px;
   width: 20rem;
-  background-color: white;
 }
 
 .news {
   height: 20rem;
   border: 1px solid rgba(0, 0, 0, 0.15);
   /* width: 16rem; */
+  background-color: white;
 }
 
 .icon.fas {
@@ -174,4 +175,9 @@ body {
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
+}
+.license {
+  margin-left: 2rem;
+  font-size: 12px;
+  margin-top: 4rem;
 }
