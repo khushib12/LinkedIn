@@ -148,10 +148,19 @@ body {
   /* width: 16rem; */
   background-color: white;
 }
+a {
+  text-align: center;
+  /* font-size: 10px; */
+}
+a span {
+  font-size: 13px;
+  margin-bottom: -1rem;
+  margin-top: 2px;
+}
 
 .icon.fas {
   display: block;
-horizontal-align:center;
+  horizontal-align: center;
 }
 
 .edit {
@@ -181,6 +190,7 @@ horizontal-align:center;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
+  /* margin-top: -1rem; */
 }
 .license {
   margin-left: 2rem;
@@ -189,7 +199,7 @@ horizontal-align:center;
   padding-top: 2rem;
 }
 
-li {
+ul li {
   list-style: none;
   margin-left: -1.5rem;
   margin-top: 0.8rem;
@@ -207,4 +217,17 @@ h1 {
   font-size: 13px;
   color: #0084bf;
   text-align: center;
+}
+
+h6 {
+  margin-left: 1rem;
+  font-size: 15px;
+  /* margin-top:rem; */
+  margin-top: 17px;
+  font-weight: lighter;
+}
+
+ol li {
+  font-weight: bolder;
+  color: black;
 }
